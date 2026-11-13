@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "unbreakable",
+  "version": "${version}",
+  "name": "Unbreakable Tools",
+  "description": "Alat dan armor tidak pernah hancur.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.unbreakable.Unbreakable"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
